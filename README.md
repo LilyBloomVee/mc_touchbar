@@ -1,4 +1,4 @@
-# Minecraft Touchbar Mod
+# Minecraft World Stats (on Macbook Touchbar) Mod
 
 A Minecraft Forge mod that exports real-time game data via a socket server to be displayed on a MacBook Touch Bar.
 
