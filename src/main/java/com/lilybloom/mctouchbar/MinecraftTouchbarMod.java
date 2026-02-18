@@ -36,9 +36,9 @@ public class MinecraftTouchbarMod {
 
         if (player != null && level != null) {
             // Coordinates
-            double x = player.getX();
-            double y = player.getY();
-            double z = player.getZ();
+            int x = (int) player.getX();
+            int y = (int) player.getY();
+            int z = (int) player.getZ();
 
             // Biome retrieval
             String biome = level.registryAccess()

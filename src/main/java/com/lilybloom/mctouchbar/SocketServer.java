@@ -82,14 +82,14 @@ public class SocketServer {
     }
 
     public static class GameData {
-        public double x, y, z;
+        public int x, y, z;
         public String biome;
         public String weather;
         public String time;
         public long worldTime;
         public long days;
 
-        public GameData(double x, double y, double z, String biome, String weather, String time, long worldTime, long days) {
+        public GameData(int x, int y, int z, String biome, String weather, String time, long worldTime, long days) {
             this.x = x;
             this.y = y;
             this.z = z;

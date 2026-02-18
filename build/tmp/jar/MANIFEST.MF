@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: mctouchbar
-Specification-Vendor: LilyBloomVee
-Specification-Version: 1
-Implementation-Title: mctouchbar
-Implementation-Version: 1.0
-Implementation-Vendor: LilyBloomVee
-Implementation-Timestamp: 2026-02-18T14:03:24+0100
-

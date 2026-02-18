@@ -10,7 +10,7 @@ A Minecraft Forge mod that exports real-time game data via a socket server to be
     - Current Biome
     - Weather Status (Clear, Rain, Thunder)
     - In-game Time (24h format and total days)
-- **Socket Server:** Runs on port `25005` by default.
+- **Socket Server:** Runs on port `8081` by default.
 
 ## Requirements
 
@@ -29,15 +29,15 @@ This bridge acts as the client that receives data from this mod and renders it o
 
 ## Technical Details
 
-The mod starts a background socket server on port `25005`. Every client tick, it collects the player's current status and broadcasts it as a JSON object to all connected clients.
+The mod starts a background socket server on port `8081`. Every client tick, it collects the player's current status and broadcasts it as a JSON object to all connected clients.
 
 ### Sample Data Format
 
 ```json
 {
-  "x": 123.45,
-  "y": 64.0,
-  "z": -789.12,
+  "x": 123,
+  "y": 64,
+  "z": -789,
   "biome": "minecraft:plains",
   "weather": "Clear",
   "time": "12:00",
