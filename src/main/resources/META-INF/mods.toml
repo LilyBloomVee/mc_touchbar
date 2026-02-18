@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="mctouchbar"
+version="1.0"
+displayName="Touchbar World Stats"
+authors="LilyBloomVee"
+description='''
+Reads coordinates, biome, weather, and world time for a Swift application.
+'''
+
+[[dependencies.mctouchbar]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mctouchbar]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
